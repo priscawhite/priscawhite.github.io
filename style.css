@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #ffffff;
   overflow-x: hidden;
 
 }
@@ -21,7 +21,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.95);
+  background: #03151A;
   backdrop-filter: blur(10px);
   z-index: 1000;
   padding: 1rem 0;
@@ -41,7 +41,7 @@ nav {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 .nav-links {
@@ -52,7 +52,7 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.3s ease;
   position: relative;
@@ -179,7 +179,7 @@ section {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #2c3e50;
+  color: #ffffff;
   position: relative;
 }
 .section-title::after {
@@ -195,7 +195,7 @@ section {
 
 /* About Section */
 .about {
-  background: #f8f9fa;
+  background: #03151A;
 }
 .about-content {
   display: grid;
@@ -217,7 +217,7 @@ section {
 .about-text h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: #f8f9fa;
 }
 .about-text p {
   margin-bottom: 1.5rem;
@@ -272,8 +272,9 @@ section {
 
 /* Portfolio Section */
 .portfolio {
-  background: #f8f9fa;
+  background: #03151A;
 }
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -327,7 +328,7 @@ section {
 
 /* Contact Section */
 .contact {
-  background: #2c3e50;
+  background: #03151A;
   color: white;
 }
 .contact .section-title {
@@ -398,7 +399,7 @@ section {
 
 /* Footer */
 footer {
-  background: #1a252f;
+  background: #000000;
   color: white;
   text-align: center;
   padding: 2rem 0;
@@ -482,7 +483,7 @@ footer {
 
 /* Sticky header scroll effect purely in CSS */
 header {
-  background: rgba(255, 255, 255, 0.98);
+  background: #000000;
   box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
 
 }
