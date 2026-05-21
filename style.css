@@ -231,6 +231,7 @@ section {
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
+  align-items: center;
 }
 .skill-tag {
   background: #3498db;
@@ -328,8 +329,8 @@ section {
 }
 
 .keep-format {
-  color: inherit;          /* Inherits text color from the parent <p> */
-  text-decoration: inherit; /* Inherits text decoration (e.g., none) */
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /* Contact Section */
