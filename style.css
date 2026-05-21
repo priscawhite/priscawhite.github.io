@@ -11,6 +11,7 @@ html {
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  background: #03151A;
   color: #ffffff;
   overflow-x: hidden;
 
@@ -21,7 +22,6 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #03151A;
   backdrop-filter: blur(10px);
   z-index: 1000;
   padding: 1rem 0;
@@ -182,7 +182,6 @@ section {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #ffffff;
   position: relative;
 }
 .section-title::after {
@@ -198,7 +197,7 @@ section {
 
 /* About Section */
 .about {
-  background: #03151A;
+  
 }
 .about-content {
   display: grid;
@@ -242,40 +241,44 @@ section {
   font-weight: 500;
 }
 
-/* Services Section */
-.services-grid {
+/* Horizon Section */
+.horizon-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.horizon-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
 }
-.service-card {
-  background: white;
+.horizon-card {
+  background: #1E2D31;
   padding: 2rem;
   border-radius: 15px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  border: 1px solid #e9ecef;
 }
-.service-card:hover {
+.horizon-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
-.service-icon {
+.horizon-icon {
   font-size: 3rem;
   color: #3498db;
   margin-bottom: 1rem;
 }
-.service-card h3 {
+.horizon-card h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #2c3e50;
 }
 
 /* Portfolio Section */
 .portfolio {
-  background: #03151A;
+  
 }
 
 .portfolio-grid {
@@ -331,7 +334,6 @@ section {
 
 /* Contact Section */
 .contact {
-  background: #03151A;
   color: white;
 }
 .contact .section-title {
