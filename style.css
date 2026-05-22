@@ -196,9 +196,6 @@ section {
 }
 
 /* About Section */
-.about {
-  
-}
 .about-content {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -278,10 +275,6 @@ section {
 }
 
 /* Portfolio Section */
-.portfolio {
-  
-}
-
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
