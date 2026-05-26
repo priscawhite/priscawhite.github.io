@@ -223,12 +223,15 @@ section {
   font-size: 1.1rem;
   line-height: 1.8;
 }
+
+/* Skills Section */
 .skills {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
   align-items: center;
+ justify-content: center;
 }
 .skill-tag {
   background: #3498db;
