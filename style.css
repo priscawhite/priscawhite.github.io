@@ -344,7 +344,12 @@ section {
 }
 .contact-info h3 {
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
 }
 .contact-item {
   display: flex;
