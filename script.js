@@ -1,3 +1,49 @@
+// Portfolio section "Read More" toggle
+document.querySelectorAll(".more-link a").forEach(link => {
+  link.addEventListener("click", function(e) {
+    e.preventDefault();
+    const fullContent = this.closest(".portfolio-content").querySelector(".full-content");
+    const moreLink = this.closest(".more-link");
+    moreLink.style.display = "none";
+    fullContent.style.display = "block";
+    fullContent.style.maxHeight = "0";
+    fullContent.style.overflow = "hidden";
+    fullContent.style.transition = "max-height 0.8s ease";
+    fullContent.offsetHeight; // Trigger reflow
+    fullContent.style.maxHeight = fullContent.scrollHeight + "px";
+  });
+});
+
+// Portfolio section "Read Less" toggle
+document.querySelectorAll(".collapse-link").forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const fullContent = this.closest(".full-content");
+    const moreLink = fullContent.closest(".portfolio-content").querySelector(".more-link");
+    fullContent.style.maxHeight = "0";
+    fullContent.style.transition = "max-height 0.8s ease";
+    setTimeout(() => {
+      fullContent.style.display = "none";
+      moreLink.style.display = "inline";
+    }, 800);
+  });
+});
+
+// Contact form email link
+document
+  .querySelector(".contact-form")
+  .addEventListener("submit", function (e) {
+  e.preventDefault();
+  const name = document.getElementById("name").value;
+  const message = document.getElementById("message").value;
+  const recipient = "prisca.white@outlook.com";
+  const subject = encodeURIComponent(`New GitHub portfolio message from ${name}`);
+  const body = encodeURIComponent(message);
+  const mailtoLink = `mailto:${recipient}?subject=${subject}&body=${body}`;
+  window.location.href = mailtoLink;
+  this.reset();
+  });
+
 // Contact form alert
 document
   .querySelector(".contact-form")
@@ -48,3 +94,4 @@ document.querySelectorAll("section").forEach((section) => {
 
 document.querySelector(".hero").style.opacity = "1";
 document.querySelector(".hero").style.transform = "translateY(0)";
+

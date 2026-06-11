@@ -318,6 +318,7 @@ section {
 .portfolio-content {
   text-align: center;
   color: white;
+  margin-bottom: 10px;
 }
 .portfolio-content h3 {
   font-size: 1.5rem;
@@ -327,6 +328,24 @@ section {
 .keep-format {
   color: inherit;
   text-decoration: inherit;
+}
+
+.portfolio-content p, .full-content {
+  text-align: left;
+}
+
+.more-link a {
+  text-decoration: none;
+  color: #3498db;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.collapse-link {
+  text-decoration: none;
+  color: #3498db;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 /* Contact Section */
