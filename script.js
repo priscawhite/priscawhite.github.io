@@ -10,7 +10,8 @@ document.querySelectorAll(".more-link a").forEach(link => {
     fullContent.style.overflow = "hidden";
     fullContent.style.transition = "max-height 0.8s ease";
     fullContent.offsetHeight; // Trigger reflow
-    fullContent.style.maxHeight = fullContent.scrollHeight + "px";
+    fullContent.style.maxHeight = "200px";
+    fullContent.style.overflowY = "auto";
   });
 });
 
