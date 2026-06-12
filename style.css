@@ -25,8 +25,9 @@ header {
   backdrop-filter: blur(10px);
   z-index: 1000;
   padding: 1rem 0;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+  background: #000000;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease, box-shadow 0.3s ease;
 }
 
 nav {
@@ -508,8 +509,4 @@ footer {
 }
 
 /* Sticky header scroll effect purely in CSS */
-header {
-  background: #000000;
-  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
-
-}
+/* (header styles consolidated above) */
