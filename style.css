@@ -326,6 +326,11 @@ section {
   margin-bottom: 0.5rem;
 }
 
+.engineering {
+  text-align: center !important;
+  font-size: 1.5rem;
+}
+
 .keep-format {
   color: inherit;
   text-decoration: inherit;
