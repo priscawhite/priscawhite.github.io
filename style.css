@@ -230,7 +230,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   align-items: center;
  justify-content: center;
 }
@@ -241,6 +242,13 @@ section {
   border-radius: 25px;
   font-size: 0.9rem;
   font-weight: 500;
+}
+
+.skills-content h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 /* Horizon Section */
@@ -413,6 +421,11 @@ section {
   border-color: #3498db;
   background: rgba(255, 255, 255, 0.15);
 }
+
+textarea {
+  font-family: inherit;
+}
+
 .contact-form button {
   padding: 15px;
   background: #3498db;
